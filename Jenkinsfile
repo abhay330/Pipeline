@@ -7,7 +7,7 @@ pipeline {
 
 	agent {
 		node {
-			label "Windows"
+			label ""
 			customWorkspace "workspace/${JOB_NAME}"
 		}
 	}
