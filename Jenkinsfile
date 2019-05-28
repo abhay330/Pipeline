@@ -5,12 +5,6 @@ pipeline {
 		GIT_PROJECT_URL = "https://github.com/abhay330/Pipeline.git"
 	}
 
-	agent {
-		node {
-			customWorkspace "workspace/${JOB_NAME}"
-		}
-	}
-	
 	stages {
 		stage ("Prepare") {
 			steps {
