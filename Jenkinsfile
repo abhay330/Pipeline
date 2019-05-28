@@ -5,6 +5,11 @@ pipeline {
 		GIT_PROJECT_URL = "https://github.com/abhay330/Pipeline.git"
 	}
 
+	agent {
+		node {
+		}
+	}
+	
 	stages {
 		stage ("Prepare") {
 			steps {
@@ -20,8 +25,5 @@ pipeline {
 				}
 			}
 		}		
-	}
-
-	post {
 	}
 }
