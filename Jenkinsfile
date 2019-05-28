@@ -7,6 +7,8 @@ pipeline {
 
 	agent {
 		node {
+			label "Windows"
+			customWorkspace "workspace/${JOB_NAME}"
 		}
 	}
 	
@@ -25,5 +27,8 @@ pipeline {
 				}
 			}
 		}		
+	}
+
+	post {
 	}
 }
