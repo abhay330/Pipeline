@@ -3,6 +3,7 @@
 pipeline {
 	environment {
 		GIT_PROJECT_URL = "https://github.com/abhay330/Pipeline.git"
+		VERSION = "1.01"
 	}
 
 	agent {
