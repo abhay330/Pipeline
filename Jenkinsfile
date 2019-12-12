@@ -1,3 +1,3 @@
-@Library(['SharedJenkinsLibrary@master']) _
+@Library(['github.com/abhay330/SharedJenkinsLibrary@master']) _
 
 notification_service()
